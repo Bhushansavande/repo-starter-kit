@@ -1,0 +1,23 @@
+name: Bug report
+description: Something does not work
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Exact commands or clicks. Do not paste private data.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version and system
+      placeholder: "0.1.0, Android 14 / Windows 11 / Ubuntu 24.04"
